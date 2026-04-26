@@ -18,8 +18,8 @@ Frontend: HTML, CSS (Glassmorphism UI), JavaScript
 File Processing: pdfplumber, python-docx
 🚀 Installation & Setup
 1. Clone the Repository
-[2. Nauman804/Ai-Study-Assistant
-](https://github.com/Nauman804/Ai-Study-Assistant.git)cd ai_study_assistant
+    Nauman804/Ai-Study-Assistant
+cd ai_study_assistant
 3. Create Virtual Environment
 python -m venv venv
 4. Activate Environment
