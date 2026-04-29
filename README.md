@@ -26,19 +26,22 @@ python -m venv venv
 # Windows
 venv\Scripts\activate
 
-# Mac/Linux
-source venv/bin/activate
+
 4. Install Dependencies
 pip install -r requirements.txt
-5. Add API Key
+
+6. Add API Key
 
 Create a .env file and add:
 
 GROQ_API_KEY=your_api_key_here
+
 6. Run the App
 python app.py
+
 7. Open in Browser
 http://localhost:5000
+
 📁 Project Structure
 ai_study_assistant/
 │
@@ -55,22 +58,31 @@ ai_study_assistant/
     └── js/
         └── main.js
 🔌 API Endpoints
+
 Endpoint	Method	Description
 /	GET	Main page
 /ask	POST	Answer questions
+
 /summarize	POST	Summarize text
+
 /summarize-file	POST	Summarize files
+
 /quiz	POST	Generate quiz
 /explain	POST	Explain concepts
+
 🎯 Use Cases
+
 Students preparing for exams
 Quick revision and summaries
 Self-assessment using quizzes
 Understanding difficult topics
+
 ⚠️ Notes
+
 Do not share your .env file publicly
 Make sure your API key is valid
 Requires Python 3.10+
+
 ❤️ Contribution
 
 Feel free to fork this repository and improve the project. Contributions are welcome!
