@@ -77,10 +77,7 @@ Quick revision and summaries
 Self-assessment using quizzes
 Understanding difficult topics
 
-⚠️ Notes
 
-Do not share your .env file publicly
-Make sure your API key is valid
 Requires Python 3.10+
 
 ❤️ Contribution
