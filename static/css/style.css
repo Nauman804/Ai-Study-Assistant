@@ -773,3 +773,34 @@ body {
   from { transform: scale(0.4) rotateX(30deg); opacity: 0; }
   to   { transform: scale(1)   rotateX(0deg);  opacity: 1; }
 }
+/* Nav-tabs ko independent row mein layein */
+  .nav-tabs {
+    display: flex !important;
+    position: relative !important; /* Kisi cheez ke upar na charhay */
+    overflow-x: auto !important;
+    width: 100% !important;
+    justify-content: flex-start !important;
+    padding: 5px 0 !important;
+    border: none !important;
+    background: transparent !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Buttons ko touch-friendly banayein */
+  .nav-tab {
+    flex-shrink: 0 !important;
+    padding: 8px 15px !important;
+    font-size: 0.85rem !important;
+    background: var(--glass2) !important;
+  }
+
+  /* Hero section ko neechay dhakelein taake menu usay na chupaye */
+  .hero {
+    margin-top: 20px !important;
+    padding: 20px 0 !important;
+  }
+
+  .hero-title {
+    font-size: 2rem !important;
+  }
+}
